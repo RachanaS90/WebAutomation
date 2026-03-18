@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T17:46:30 IST" name="Suite" finished-at="2026-03-17T17:46:38 IST" duration-ms="7636">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T17:46:30 IST" name="Test" finished-at="2026-03-17T17:46:38 IST" duration-ms="7636">
+      <class name="PracticeWebAutomation.EventHub.Eventtest">
+        <test-method signature="selectEvent(java.lang.String,java.lang.String)[pri:0, instance:PracticeWebAutomation.EventHub.Eventtest@730d2164]" started-at="2026-03-17T17:46:30 IST" name="selectEvent" data-provider="logindata" finished-at="2026-03-17T17:46:37 IST" duration-ms="6851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rachanapitale28@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai@2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEvent -->
+        <test-method signature="bookEvents()[pri:0, instance:PracticeWebAutomation.EventHub.Eventtest@730d2164]" started-at="2026-03-17T17:46:37 IST" name="bookEvents" finished-at="2026-03-17T17:46:38 IST" depends-on-methods="PracticeWebAutomation.EventHub.Eventtest.selectEvent" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookEvents -->
+      </class> <!-- PracticeWebAutomation.EventHub.Eventtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
