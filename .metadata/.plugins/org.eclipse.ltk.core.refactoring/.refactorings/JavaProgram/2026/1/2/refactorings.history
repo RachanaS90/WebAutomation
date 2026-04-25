@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Practice.JavaProgram.App&apos; to &apos;HandleAlert&apos;&#x0D;&#x0A;- Original project: &apos;JavaProgram&apos;&#x0D;&#x0A;- Original element: &apos;Practice.JavaProgram.App&apos;&#x0D;&#x0A;- Renamed element: &apos;Practice.JavaProgram.HandleAlert&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;App&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Practice.JavaProgram{App.java[App" matchStrategy="1" name="HandleAlert" qualified="false" references="true" similarDeclarations="false" stamp="1767761085189" textual="false" version="1.0"/>
+</session>
