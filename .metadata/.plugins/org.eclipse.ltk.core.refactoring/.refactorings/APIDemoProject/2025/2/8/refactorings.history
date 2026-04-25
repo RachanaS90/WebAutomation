@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Files.ReUseableMethods.java&apos; to &apos;ReUsableMethods.java&apos;&#x0D;&#x0A;- Original project: &apos;APIDemoProject&apos;&#x0D;&#x0A;- Original element: &apos;Files.ReUseableMethods.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Files.ReUsableMethods.java&apos;" description="Rename compilation unit &apos;ReUseableMethods.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;Files{ReUseableMethods.java" name="ReUsableMethods.java" references="false" stamp="1739955540308" version="1.0"/>
+</session>

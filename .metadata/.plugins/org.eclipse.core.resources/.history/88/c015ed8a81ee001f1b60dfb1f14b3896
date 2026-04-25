@@ -1,0 +1,33 @@
+package DriveAPI.DriveAPIAutomation;
+
+import io.restassured.RestAssured;
+import io.restassured.config.EncoderConfig;
+import io.restassured.config.RestAssuredConfig;
+import io.restassured.http.ContentType;
+
+import static io.restassured.RestAssured.*;
+
+import org.testng.annotations.Test;
+
+public class GetCustomerURL {
+
+	@Test
+	public void getOAuthToken()
+	{
+		RestAssured.baseURI ="https://uat.cloudgateway.saint-gobain.com";
+		
+		given().log().all().queryParam("realm", "AccessManagement")
+		.header("Content-Type", "application/x-www-form-urlencoded")
+		.formParam("grant_type", "client_credentials")
+		.formParam("client_id", "POC_Labo_Mobile")
+		.formParam("client_secret", "WSA1lkPHj7sTQS1dgiYb")
+		.formParam("scope", "profileLight")
+		.formParam("grant_type", "password"))
+		.formParam("username", "R9224560")
+		.formParam("password", "Shivansh@2025")
+		.formParam("ENV", "UAT")
+		.when().post("openam/oauth2/access_token")
+		.then().log().all().assertThat().statusCode(200);
+		
+	}
+}
