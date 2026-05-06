@@ -1,22 +1,29 @@
 package Practice.JavaProgram;
 
+import java.util.Arrays;
+
 public class LargestNumberInArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int[] arr = {10,20,5,45,90};
+		int[] arr = {100,20,8,200,80};
 		
 		int max = arr[0];
 		
 		for(int num : arr)
 		{
-			if(num > max)
+			if(max < num)
 			{
-				max =num;
+				max = num;
 			}
+			
 		}
-		System.out.println("Max number is "+ max);
+		System.out.println("Maximum number is " + max);
+		
+		
+		int maxnumber = Arrays.stream(arr).max().getAsInt();
+		System.out.println(maxnumber + " is largest number");
 	}
 
 }

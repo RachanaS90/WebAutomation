@@ -1,6 +1,7 @@
 package Practice.JavaProgram;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortArray {
 
@@ -23,6 +24,21 @@ public class SortArray {
 			}
 		}
 		System.out.println(Arrays.toString(arr));
+		
+		
+		
+		int[] arr1 = {10,5,8,1,20};
+		
+		Arrays.sort(arr1);
+		
+		System.out.println("Asencding arrays :" + Arrays.toString(arr1));
+		
+		Integer[] arr2 = {23,8,1,9,20}; 
+		
+		Arrays.sort(arr2, Collections.reverseOrder());
+		
+		System.out.println("Descending arrays :" + Arrays.toString(arr2));
+		
 	}
 
 }
